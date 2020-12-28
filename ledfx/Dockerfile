@@ -13,6 +13,7 @@ ARG BUILD_ARCH=amd64
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         build-base=0.5-r1 \
+        musl=1.1.24-r2 \
         cython=0.29.14-r0 \
         g++=9.2.0-r4 \
         gcc=9.2.0-r4 \
